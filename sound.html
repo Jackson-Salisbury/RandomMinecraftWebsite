@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+<title>index.html</title>
+<meda charset = "UtF-8"/>
+
+<link rel="stylesheet" href="Styles.css">
+
+
+    <style>
+        P{
+            font-family:sans-serif
+        }
+
+
+    </style>
+</head>
+
+<body style = "background-color: rgb(255, 255, 255);">
+    <h1>Minecraft website</h1>
+    <h3>The beginning steps of playing minecraft</h3>
+
+    <ul id = "navigation">
+        <li class = "navbar">
+            <a class = "navitem" href="index.HTML">home</a>
+        </li>
+
+
+        <li class = "navbar">
+            <a class = "navitem" href="Video.html">Video</a>
+        </li>
+
+        <li class = "navbar">
+            <a class = "navitem" href="game.html">Game</a>
+        </li>
+
+        <li class = "navbar">
+            <a class = "navitem" href="sound.html">sound</a>
+        </li>
+
+    </uL>
+
+
+    <button class = "soundbutton" onclick = "playsound('war_x')">
+    click to playsound
+    </button>
+
+    <script>
+        function playsound(sound)  {
+            var snd = new Audio ( sound + ".wav");
+            snd.play();
+        }
+
+
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </body>
+
+
+    </html>

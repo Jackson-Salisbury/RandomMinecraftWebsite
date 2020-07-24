@@ -1,0 +1,48 @@
+h1{
+    text-align: center;
+}
+
+.frontimage{
+    width: 1300px;
+    height: 1000px;
+}
+
+#navigation{
+    height: 60px;
+list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    font-size: xx-large;
+    float:left;
+}
+
+.navitem{
+    outline-style: solid;
+    outline-color: black;
+    outline-width: thick;
+    display: block;
+    padding: 8px;
+    margin-left: 20px;
+    background-color: darkgray;
+}
+
+
+
+body {
+
+    background-color: rgb(255, 255, 255);
+
+
+       
+}
+
+
+#colorchanger{
+    display: block;
+    padding: 8px;
+    background-color: darkseagreen;
+    
+}
